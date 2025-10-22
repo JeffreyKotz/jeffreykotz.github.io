@@ -1,0 +1,63 @@
+/* Global Styles */
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+
+    color: white;
+    
+    background-color: rgb(49, 49, 49);
+    transition: 500ms;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.nav-box {
+    position: sticky;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.nav-name {
+    margin: 0px;
+    padding: 10px;
+
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.nav-button-box {
+    display: flex;   
+}
+
+.nav-button, .nav-selected {
+    padding: 10px;
+    align-content: center;
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    user-select: none;
+
+    transition: background-color 300ms;
+}
+
+.nav-button:hover, .nav-selected {
+    background-color: black;
+}
+
+.nav-button:active {
+    opacity: 60%;
+}
+
+/* Page */
+
+.page {
+    display: flex;
+    justify-content: center;
+}
