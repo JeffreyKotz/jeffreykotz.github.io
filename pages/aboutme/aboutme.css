@@ -1,0 +1,28 @@
+.picture-text {
+    margin-left: 10px;
+    flex-grow: 4;
+
+}
+
+.title-name {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+
+
+    justify-self: center;
+    font-size: xx-large;
+}
+
+.contact-info {
+    margin: 0;
+    padding: 0;
+
+    justify-self: center;
+}
+
+.biography {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
