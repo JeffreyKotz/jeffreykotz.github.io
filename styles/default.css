@@ -15,13 +15,14 @@ body {
 }
 
 main {
-    margin-top: 2.5%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-self: center;
 
     width: 90%;
+    margin-top: 2.5vh;
 }
 
 section {
@@ -29,22 +30,6 @@ section {
     flex-direction: row;
 }
 
-
-footer {
-    display: flex;
-    justify-content: space-between;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: black;
-}
 
 div {
     background: none;
@@ -66,8 +51,9 @@ img {
 .nav-box {
     position: sticky;
     top: 0;
+    height: 50px;
 
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(0, 0, 0);
 
     display: flex;
     justify-content: space-between;
@@ -78,9 +64,10 @@ img {
     background: none;
 
     margin: 0px;
-    padding: 10px;
+    margin-left: 10px;
 
-    font-size: x-large;
+    font-size: 30px;
+    align-self: center;
     font-weight: bolder;
     text-shadow: 1px 1px 1px black;
 }
@@ -93,11 +80,15 @@ img {
 
 .nav-button, .nav-selected {
     background: none;
-    padding: 10px;
+    
     align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 
     color: white;
     font-weight: bolder;
+    font-size: x-large;
+
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
     user-select: none;
@@ -118,5 +109,25 @@ img {
 /* Page */
 
 
-/* Bottom */
+/* Footer */
 
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
+
+.footer-text {
+    align-self: center;
+
+    font-size: 16px;
+}
