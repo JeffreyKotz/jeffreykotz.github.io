@@ -15,9 +15,6 @@ body {
 }
 
 main {
-    
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     justify-self: center;
 
@@ -28,6 +25,7 @@ main {
 section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -106,8 +104,26 @@ img {
     opacity: 60%;
 }
 
-/* Page */
+/* Default Page Styling */
 
+.title-text{
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+
+    font-size: xx-large;
+}
+
+.body-text {
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+
+    width: 100%;
+    max-width: 1000px;
+}
 
 /* Footer */
 
