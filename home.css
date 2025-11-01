@@ -6,3 +6,7 @@ section {
 .title-text {
     justify-self: center;
 }
+
+.body-text {
+    max-width: 850px;
+}
