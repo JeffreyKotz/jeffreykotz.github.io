@@ -1,7 +1,7 @@
 /* Global Styles */
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    font-size: 20px;
 
     color: white;
     
@@ -113,6 +113,7 @@ img {
     padding: 0;
 
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 .body-text {
