@@ -119,6 +119,8 @@ img {
 
     font-size: xx-large;
     font-weight: bolder;
+
+    text-shadow: 4px 4px 8px black;
 }
 
 .body-text {
