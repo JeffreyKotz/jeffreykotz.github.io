@@ -3,5 +3,66 @@ section {
     flex-direction: column;
 
     justify-content: start;
+    margin-bottom: 50px;
+}
+
+img {
+    border-radius: 0;
+
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+
+    width: 100%;
+    max-width: 550px;
+    min-width: 550px;
+}
+
+ul {
+    background: none;
+    margin-top: 10px;
+}
+
+li {
+    background: none;
+    margin-top: 10px;
+}
+
+.link {
+    color: rgb(146, 146, 255);
+}
+.link:visited {
+    color: rgb(196, 129, 255);
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+
     
+}
+
+.title-text {
+    font-size: 40px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.body-text {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.bullet {
+    margin-left: 30px;
+    display: list-item;
+    padding-top: 10px;
 }

@@ -2,3 +2,12 @@
     display: block;
     margin-left: 10px;
 }
+
+.image-box {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 100px;
+}

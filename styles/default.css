@@ -11,6 +11,8 @@
 
 body {
     margin: 0;
+    margin-top: 75px;
+    margin-bottom: 75px;
     padding: 0;
 }
 
@@ -47,13 +49,15 @@ img {
 
 /* Navigation */
 .nav-box {
-    position: sticky;
+    display: flex;
+    position: fixed;
+    width: 100%;
     top: 0;
     height: 50px;
 
     background-color: rgb(0, 0, 0);
 
-    display: flex;
+    
     justify-content: space-between;
     align-items: stretch;
 }
