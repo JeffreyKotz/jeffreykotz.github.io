@@ -1,12 +1,14 @@
-section {
+body {
     display: block;
-    justify-self: center;
+    align-self: center;
 }
+
 
 img {
     display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin: 0 auto;
     max-width: 300px;
 
     scale: 100%;
@@ -17,13 +19,11 @@ img {
 
     border-color: white;
     border-width: 5px;
-
-    justify-self: center;
 }
 
 
 .title-text {
-    justify-self: center;
+    text-align: center;
 }
 
 .body-text {
