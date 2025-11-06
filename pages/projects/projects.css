@@ -14,11 +14,14 @@ img {
     border-width: 5px;
 
     width: 100%;
-    max-width: 550px;
-    min-width: 550px;
+    max-width: 560px;
+    min-width: 560px;
 }
 
 iframe {
+    border: solid;
+    border-color: black;
+    border-width: 5px;
     min-width: 560px;
 }
 
