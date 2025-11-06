@@ -18,6 +18,10 @@ img {
     min-width: 550px;
 }
 
+iframe {
+    min-width: 560px;
+}
+
 ul {
     background: none;
     margin-top: 10px;
