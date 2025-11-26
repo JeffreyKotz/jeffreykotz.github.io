@@ -83,6 +83,9 @@ img {
 
 .nav-button, .nav-selected {
     background: none;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
     
     align-content: center;
     padding-left: 10px;
